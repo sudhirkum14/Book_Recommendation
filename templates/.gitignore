@@ -1,0 +1,58 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# IDEs and editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Python packaging / build
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Logs, databases, and runtime files
+*.log
+*.sqlite3
+instance/
+
+# Environment and secret files
+.env
+.env.*
+
+# Test / coverage
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.pytest_cache/
+.hypothesis/
+
+# Jupyter
+.ipynb_checkpoints
+
+# OS files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Model / data / pickles (usually large; remove if you want them versioned)
+*.pkl
+*.model
+*.h5
+
+# Other
+pip-delete-this-directory.txt
